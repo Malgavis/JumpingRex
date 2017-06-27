@@ -1,0 +1,10 @@
+switch (random(3))
+    {
+        case 1: instance_create(944, 256, object_abajo);
+         break;
+        case 2: instance_create(976, 208, object_medio); 
+        break;
+        case 3:instance_create(992, 128, object_arriba);
+        break;
+ 
+    }
